@@ -20,12 +20,16 @@
 		var num = document.getElementById("n1");
 		num.value = Math.pow(num.value, 2);
 	}
+	function inverso() {
+		var num = document.getElementById("n1");
+		num.value = 1/num.value;
+	}
 </script>
 </head>
 <body>
 <h1>Calculadora de ......Gregorio Ruiz......</h1>
 
-X^3 Button, X^4 Button & Sin(x)<p>
+X^3 Button, X^4 Button, Sin(x), x^2 & 1/X<p>
 
 Number:
 <input type="text" id="n1">
@@ -34,6 +38,7 @@ Number:
 <button onclick="four()"> x^4 </button>
 <button onclick="seno()"> sin(x) </button>
 <button onclick="cuadrado()"> x^2  </button>
+<button onclick="inverso()"> 1/x </button>
 </p>
 </body>
 </html>
